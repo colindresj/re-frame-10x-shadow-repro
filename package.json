@@ -1,0 +1,19 @@
+{
+  "name": "re-frame-10x-shadow-repro",
+  "license": "UNLICENSED",
+  "scripts": {
+    "storybook": "start-storybook -p 5858",
+    "shadow-cljs": "shadow-cljs watch storybook"
+  },
+  "devDependencies": {
+    "@storybook/react": "^3.4.2",
+    "highlight.js": "^9.12.0",
+    "react-flip-move": "^3.0.1",
+    "react-highlight.js": "^1.0.7",
+    "shadow-cljs": "^2.3.0"
+  },
+  "dependencies": {
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2"
+  }
+}
