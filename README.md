@@ -31,6 +31,6 @@ Check the render method of `day8.re_frame_10x.utils.re_com.v_box`.
 2. `yarn install`
 3. `yarn run shadow-cljs` and keep alive
 4. In another terminal, run `yarn run storybook`
-5. Open browser to `http://localhost:5858`
-6. See console error `React.createElement: type is invalid -- expected a string ...`
-7. Open `src/repro/stories/core.cljs` and un-comment code to verify `goog-define` values
+5. Open browser to `http://localhost:5858` and verify working React components
+6. Uncomment, re-frame-10x preload in `src/repro/stories/core.cljs`. See
+   console error `React.createElement: type is invalid -- expected a string ...`
